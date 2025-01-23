@@ -17,7 +17,7 @@ This project demonstrates how to set up and test OpenAI's Whisper model for real
 - Compatible GPU with CUDA support (optional, for faster processing)
 - A working microphone
 
-##Installation
+## Installation
 Provide a step-by-step guide to set up the project:
 
 1.Create and Activate a Virtual Environment -
@@ -34,7 +34,6 @@ pip install openai-whisper sounddevice numpy ffmpeg-python
 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 
-4.Running the Project -
 
 ## Running the Project
 
@@ -44,7 +43,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
    python3 real_time_transcription.py
 
- Troubleshooting
+ ## Troubleshooting
  
 Microphone Not Detected: Run the following to list all available devices:
 
@@ -55,8 +54,8 @@ Then set the correct device ID in the script
 sd.default.device = <device_id>
 
 
-Acknowledge tools or libraries used:
 ## Acknowledgments
+Acknowledge tools or libraries used:
 
 - [OpenAI Whisper](https://github.com/openai/whisper)
 - [SoundDevice](https://python-sounddevice.readthedocs.io/)
